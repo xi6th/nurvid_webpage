@@ -4,8 +4,10 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 255, 255, 255, 1;
   --background-end-rgb: 255, 255, 255;
+  /* --tw-bg-opacity: 1;
+  --background-color--home: rgb(247 245 255/var(--tw-bg-opacity)); */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +17,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
 
 body {
   color: rgb(var(--foreground-rgb));
